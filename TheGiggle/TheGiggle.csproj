@@ -4,6 +4,19 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<VersionPrefix>1.0.0</VersionPrefix>
+	<Authors>Chris Molloy Wischer</Authors>
+	<Copyright>Share and Enjoy</Copyright>
+	<PackageProjectUrl>logopolis.uk/packages/thegiggle</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/Logopolis/TheGiggle</RepositoryUrl>
+	<PackageTags>Dice;Random;RPG</PackageTags>
+	<Description>A simple dice roller.</Description>
+	<IsPackable>true</IsPackable>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
-
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 </Project>
